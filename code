@@ -1,0 +1,450 @@
+Sub Water_Heater_Animation205()
+
+Dim Datasheet As Worksheet
+Dim WaterHeater As Worksheet
+Dim temp1 As Double
+Dim temp2 As Double
+Dim temp3 As Double
+Dim temp4 As Double
+Dim temp5 As Double
+Dim temp6 As Double
+
+
+Set Datasheet = ThisWorkbook.Sheets("HP205")
+Set WaterHeater = ThisWorkbook.Sheets("Water Heater")
+
+'j = 3
+For i = 1 To 60 Step 1
+j = i + 2
+        temp1 = Datasheet.Cells(j, 27) 'for first temp value (bottom of tank)
+        temp2 = Datasheet.Cells(j, 28)
+        temp3 = Datasheet.Cells(j, 29)
+        temp4 = Datasheet.Cells(j, 30)
+        temp5 = Datasheet.Cells(j, 31)
+        temp6 = Datasheet.Cells(j, 32)
+            
+        'If temp1 = 0 Then
+         '   jj = 2
+        'End If
+        
+        
+        
+        With WaterHeater
+            ActiveSheet.Shapes.Range(Array("Group 1")).Select
+                ActiveSheet.Shapes.Range(Array("Rectangle 31")).Select
+            Select Case temp1
+            
+            Case 125 To 150
+                '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(200, 200, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 120 To 124
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(150, 150, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 110 To 119
+                         '
+                       '
+                        With Selection.ShapeRange.Fill
+                            .Visible = msoTrue
+                            .ForeColor.RGB = RGB(100, 100, 255)
+                            .Transparency = 0
+                            .Solid
+                        End With
+            Case 100 To 109
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(50, 50, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 90 To 99
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 80 To 89
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 204)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 50 To 79
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 134)
+                    .Transparency = 0
+                    .Solid
+                End With
+            
+            End Select
+            
+             '
+            
+         ActiveSheet.Shapes.Range(Array("Rectangle 27")).Select
+            Select Case temp2
+            Case 125 To 150
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(200, 200, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 120 To 124
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(150, 150, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 110 To 119
+                         '
+                       '
+                        With Selection.ShapeRange.Fill
+                            .Visible = msoTrue
+                            .ForeColor.RGB = RGB(100, 100, 255)
+                            .Transparency = 0
+                            .Solid
+                        End With
+            Case 100 To 109
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(50, 50, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 90 To 99
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 80 To 89
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 204)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 50 To 79
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 134)
+                    .Transparency = 0
+                    .Solid
+                End With
+            
+            End Select
+            
+            
+    ActiveSheet.Shapes.Range(Array("Rectangle 26")).Select
+            
+            Select Case temp3
+            Case 125 To 150
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(200, 200, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 120 To 124
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(150, 150, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 110 To 119
+                         '
+                       '
+                        With Selection.ShapeRange.Fill
+                            .Visible = msoTrue
+                            .ForeColor.RGB = RGB(100, 100, 255)
+                            .Transparency = 0
+                            .Solid
+                        End With
+            Case 100 To 109
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(50, 50, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 90 To 99
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 80 To 89
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 204)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 50 To 79
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 134)
+                    .Transparency = 0
+                    .Solid
+                End With
+            
+            End Select
+            
+        ActiveSheet.Shapes.Range(Array("Rectangle 25")).Select
+           
+           Select Case temp4
+           Case 125 To 150
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(200, 200, 255)
+                    .Transparency = 0
+                    .Solid
+                 End With
+            Case 120 To 124
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(150, 150, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 110 To 119
+                         '
+                       '
+                        With Selection.ShapeRange.Fill
+                            .Visible = msoTrue
+                            .ForeColor.RGB = RGB(100, 100, 255)
+                            .Transparency = 0
+                            .Solid
+                        End With
+            Case 100 To 109
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(50, 50, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 90 To 99
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 80 To 89
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 204)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 50 To 79
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 134)
+                    .Transparency = 0
+                    .Solid
+                End With
+            
+            End Select
+            
+        ActiveSheet.Shapes.Range(Array("Rectangle 24")).Select
+            
+            Select Case temp5
+            
+            Case 125 To 150
+            
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(200, 200, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 120 To 124
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(150, 150, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 110 To 119
+                         '
+                       '
+                        With Selection.ShapeRange.Fill
+                            .Visible = msoTrue
+                            .ForeColor.RGB = RGB(100, 100, 255)
+                            .Transparency = 0
+                            .Solid
+                        End With
+            Case 100 To 109
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(50, 50, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 90 To 99
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 80 To 89
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 204)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 50 To 79
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 134)
+                    .Transparency = 0
+                    .Solid
+                End With
+            
+            End Select
+        
+        ActiveSheet.Shapes.Range(Array("Rectangle 23")).Select
+        
+        Select Case temp6
+        
+        Case 125 To 150
+        
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(200, 200, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 120 To 124
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(150, 150, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 110 To 119
+                         '
+                       '
+                        With Selection.ShapeRange.Fill
+                            .Visible = msoTrue
+                            .ForeColor.RGB = RGB(100, 100, 255)
+                            .Transparency = 0
+                            .Solid
+                        End With
+            Case 100 To 109
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(50, 50, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 90 To 99
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 80 To 89
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 204)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 50 To 79
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(0, 0, 134)
+                    .Transparency = 0
+                    .Solid
+                End With
+            
+            End Select
+    End With
+    
+     Application.Wait (Now + TimeValue("0:00:01"))
+'j = j + 1
+'Loop Until jj > 1
+Next
+
+End Sub
