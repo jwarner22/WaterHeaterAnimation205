@@ -22,10 +22,7 @@ j = i + 2
         temp4 = Datasheet.Cells(j, 30)
         temp5 = Datasheet.Cells(j, 31)
         temp6 = Datasheet.Cells(j, 32)
-            
-        'If temp1 = 0 Then
-         '   jj = 2
-        'End If
+
         
         
         
@@ -39,11 +36,65 @@ j = i + 2
                '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
+                    .ForeColor.RGB = RGB(200, 0, 0)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 121 To 124
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 0, 0)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 117 To 120
+                         '
+                       '
+                        With Selection.ShapeRange.Fill
+                            .Visible = msoTrue
+                            .ForeColor.RGB = RGB(255, 50, 50)
+                            .Transparency = 0
+                            .Solid
+                        End With
+            Case 113 To 116
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 100, 100)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 109 To 112
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 150, 150)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 105 To 108
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 200, 200)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 101 To 104
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
                     .ForeColor.RGB = RGB(200, 200, 255)
                     .Transparency = 0
                     .Solid
                 End With
-            Case 120 To 124
+            Case 97 To 100
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -52,16 +103,18 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 110 To 119
-                         '
-                       '
-                        With Selection.ShapeRange.Fill
-                            .Visible = msoTrue
-                            .ForeColor.RGB = RGB(100, 100, 255)
-                            .Transparency = 0
-                            .Solid
-                        End With
-            Case 100 To 109
+                
+            Case 93 To 99
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(100, 100, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+                
+                Case 89 To 92
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -70,7 +123,8 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 90 To 99
+                
+                Case 85 To 88
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -79,25 +133,25 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 80 To 89
+                
+                Case 81 To 84
                  '
                '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
-                    .ForeColor.RGB = RGB(0, 0, 204)
+                    .ForeColor.RGB = RGB(0, 0, 200)
                     .Transparency = 0
                     .Solid
                 End With
-            Case 50 To 79
+                
+                Case 77 To 80
                  '
-               '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
                     .ForeColor.RGB = RGB(0, 0, 134)
                     .Transparency = 0
                     .Solid
                 End With
-            
             End Select
             
              '
@@ -105,13 +159,69 @@ j = i + 2
          ActiveSheet.Shapes.Range(Array("Rectangle 27")).Select
             Select Case temp2
             Case 125 To 150
+                '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(200, 0, 0)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 121 To 124
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 0, 0)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 117 To 120
+                         '
+                       '
+                        With Selection.ShapeRange.Fill
+                            .Visible = msoTrue
+                            .ForeColor.RGB = RGB(255, 50, 50)
+                            .Transparency = 0
+                            .Solid
+                        End With
+            Case 113 To 116
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 100, 100)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 109 To 112
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 150, 150)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 105 To 108
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 200, 200)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 101 To 104
+                 '
+               '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
                     .ForeColor.RGB = RGB(200, 200, 255)
                     .Transparency = 0
                     .Solid
                 End With
-            Case 120 To 124
+            Case 97 To 100
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -120,16 +230,18 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 110 To 119
-                         '
-                       '
-                        With Selection.ShapeRange.Fill
-                            .Visible = msoTrue
-                            .ForeColor.RGB = RGB(100, 100, 255)
-                            .Transparency = 0
-                            .Solid
-                        End With
-            Case 100 To 109
+                
+            Case 93 To 99
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(100, 100, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+                
+                Case 89 To 92
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -138,7 +250,8 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 90 To 99
+                
+                Case 85 To 88
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -147,39 +260,95 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 80 To 89
+                
+                Case 81 To 84
                  '
                '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
-                    .ForeColor.RGB = RGB(0, 0, 204)
+                    .ForeColor.RGB = RGB(0, 0, 200)
                     .Transparency = 0
                     .Solid
                 End With
-            Case 50 To 79
+                
+                Case 77 To 80
                  '
-               '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
                     .ForeColor.RGB = RGB(0, 0, 134)
                     .Transparency = 0
                     .Solid
                 End With
-            
             End Select
             
             
     ActiveSheet.Shapes.Range(Array("Rectangle 26")).Select
             
             Select Case temp3
-            Case 125 To 150
+           Case 125 To 150
+                '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(200, 0, 0)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 121 To 124
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 0, 0)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 117 To 120
+                         '
+                       '
+                        With Selection.ShapeRange.Fill
+                            .Visible = msoTrue
+                            .ForeColor.RGB = RGB(255, 50, 50)
+                            .Transparency = 0
+                            .Solid
+                        End With
+            Case 113 To 116
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 100, 100)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 109 To 112
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 150, 150)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 105 To 108
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 200, 200)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 101 To 104
+                 '
+               '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
                     .ForeColor.RGB = RGB(200, 200, 255)
                     .Transparency = 0
                     .Solid
                 End With
-            Case 120 To 124
+            Case 97 To 100
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -188,16 +357,18 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 110 To 119
-                         '
-                       '
-                        With Selection.ShapeRange.Fill
-                            .Visible = msoTrue
-                            .ForeColor.RGB = RGB(100, 100, 255)
-                            .Transparency = 0
-                            .Solid
-                        End With
-            Case 100 To 109
+                
+            Case 93 To 99
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(100, 100, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+                
+                Case 89 To 92
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -206,7 +377,8 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 90 To 99
+                
+                Case 85 To 88
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -215,18 +387,19 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 80 To 89
+                
+                Case 81 To 84
                  '
                '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
-                    .ForeColor.RGB = RGB(0, 0, 204)
+                    .ForeColor.RGB = RGB(0, 0, 200)
                     .Transparency = 0
                     .Solid
                 End With
-            Case 50 To 79
+                
+                Case 77 To 80
                  '
-               '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
                     .ForeColor.RGB = RGB(0, 0, 134)
@@ -239,14 +412,70 @@ j = i + 2
         ActiveSheet.Shapes.Range(Array("Rectangle 25")).Select
            
            Select Case temp4
-           Case 125 To 150
+          Case 125 To 150
+                '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(200, 0, 0)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 121 To 124
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 0, 0)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 117 To 120
+                         '
+                       '
+                        With Selection.ShapeRange.Fill
+                            .Visible = msoTrue
+                            .ForeColor.RGB = RGB(255, 50, 50)
+                            .Transparency = 0
+                            .Solid
+                        End With
+            Case 113 To 116
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 100, 100)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 109 To 112
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 150, 150)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 105 To 108
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 200, 200)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 101 To 104
+                 '
+               '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
                     .ForeColor.RGB = RGB(200, 200, 255)
                     .Transparency = 0
                     .Solid
-                 End With
-            Case 120 To 124
+                End With
+            Case 97 To 100
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -255,16 +484,18 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 110 To 119
-                         '
-                       '
-                        With Selection.ShapeRange.Fill
-                            .Visible = msoTrue
-                            .ForeColor.RGB = RGB(100, 100, 255)
-                            .Transparency = 0
-                            .Solid
-                        End With
-            Case 100 To 109
+                
+            Case 93 To 99
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(100, 100, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+                
+                Case 89 To 92
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -273,7 +504,8 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 90 To 99
+                
+                Case 85 To 88
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -282,25 +514,25 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 80 To 89
+                
+                Case 81 To 84
                  '
                '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
-                    .ForeColor.RGB = RGB(0, 0, 204)
+                    .ForeColor.RGB = RGB(0, 0, 200)
                     .Transparency = 0
                     .Solid
                 End With
-            Case 50 To 79
+                
+                Case 77 To 80
                  '
-               '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
                     .ForeColor.RGB = RGB(0, 0, 134)
                     .Transparency = 0
                     .Solid
                 End With
-            
             End Select
             
         ActiveSheet.Shapes.Range(Array("Rectangle 24")).Select
@@ -308,14 +540,69 @@ j = i + 2
             Select Case temp5
             
             Case 125 To 150
-            
+                '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(200, 0, 0)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 121 To 124
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 0, 0)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 117 To 120
+                         '
+                       '
+                        With Selection.ShapeRange.Fill
+                            .Visible = msoTrue
+                            .ForeColor.RGB = RGB(255, 50, 50)
+                            .Transparency = 0
+                            .Solid
+                        End With
+            Case 113 To 116
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 100, 100)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 109 To 112
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 150, 150)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 105 To 108
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 200, 200)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 101 To 104
+                 '
+               '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
                     .ForeColor.RGB = RGB(200, 200, 255)
                     .Transparency = 0
                     .Solid
                 End With
-            Case 120 To 124
+            Case 97 To 100
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -324,16 +611,18 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 110 To 119
-                         '
-                       '
-                        With Selection.ShapeRange.Fill
-                            .Visible = msoTrue
-                            .ForeColor.RGB = RGB(100, 100, 255)
-                            .Transparency = 0
-                            .Solid
-                        End With
-            Case 100 To 109
+                
+            Case 93 To 99
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(100, 100, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+                
+                Case 89 To 92
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -342,7 +631,8 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 90 To 99
+                
+                Case 85 To 88
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -351,18 +641,19 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 80 To 89
+                
+                Case 81 To 84
                  '
                '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
-                    .ForeColor.RGB = RGB(0, 0, 204)
+                    .ForeColor.RGB = RGB(0, 0, 200)
                     .Transparency = 0
                     .Solid
                 End With
-            Case 50 To 79
+                
+                Case 77 To 80
                  '
-               '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
                     .ForeColor.RGB = RGB(0, 0, 134)
@@ -376,15 +667,70 @@ j = i + 2
         
         Select Case temp6
         
-        Case 125 To 150
-        
+       Case 125 To 150
+                '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(200, 0, 0)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 121 To 124
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 0, 0)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 117 To 120
+                         '
+                       '
+                        With Selection.ShapeRange.Fill
+                            .Visible = msoTrue
+                            .ForeColor.RGB = RGB(255, 50, 50)
+                            .Transparency = 0
+                            .Solid
+                        End With
+            Case 113 To 116
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 100, 100)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 109 To 112
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 150, 150)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 105 To 108
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(255, 200, 200)
+                    .Transparency = 0
+                    .Solid
+                End With
+            Case 101 To 104
+                 '
+               '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
                     .ForeColor.RGB = RGB(200, 200, 255)
                     .Transparency = 0
                     .Solid
                 End With
-            Case 120 To 124
+            Case 97 To 100
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -393,16 +739,18 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 110 To 119
-                         '
-                       '
-                        With Selection.ShapeRange.Fill
-                            .Visible = msoTrue
-                            .ForeColor.RGB = RGB(100, 100, 255)
-                            .Transparency = 0
-                            .Solid
-                        End With
-            Case 100 To 109
+                
+            Case 93 To 99
+                 '
+               '
+                With Selection.ShapeRange.Fill
+                    .Visible = msoTrue
+                    .ForeColor.RGB = RGB(100, 100, 255)
+                    .Transparency = 0
+                    .Solid
+                End With
+                
+                Case 89 To 92
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -411,7 +759,8 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 90 To 99
+                
+                Case 85 To 88
                  '
                '
                 With Selection.ShapeRange.Fill
@@ -420,18 +769,19 @@ j = i + 2
                     .Transparency = 0
                     .Solid
                 End With
-            Case 80 To 89
+                
+                Case 81 To 84
                  '
                '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
-                    .ForeColor.RGB = RGB(0, 0, 204)
+                    .ForeColor.RGB = RGB(0, 0, 200)
                     .Transparency = 0
                     .Solid
                 End With
-            Case 50 To 79
+                
+                Case 77 To 80
                  '
-               '
                 With Selection.ShapeRange.Fill
                     .Visible = msoTrue
                     .ForeColor.RGB = RGB(0, 0, 134)
@@ -442,7 +792,7 @@ j = i + 2
             End Select
     End With
     
-     Application.Wait (Now + TimeValue("0:00:01"))
+     Application.Wait (Now + TimeValue("0:00:02"))
 'j = j + 1
 'Loop Until jj > 1
 Next
